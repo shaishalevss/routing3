@@ -97,6 +97,7 @@ class Pythagoras extends React.Component{
                 <button disabled={this.onlyTwo()} onClick={this.calc}>Calculate</button>
                 <button disabled={this.onlyTwo()} onClick={this.resetCalc}>Reset</button>
                 <h2>{this.state.a}² + {this.state.b}² = {this.state.c}²</h2>
+                <div>AAA</div>
             </div>
         )}
 }
